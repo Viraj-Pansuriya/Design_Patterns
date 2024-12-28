@@ -9,5 +9,4 @@ public class SingletonApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SingletonApplication.class, args);
 	}
-
 }
