@@ -1,6 +1,6 @@
-package com.viraj.singleton.service;
+package com.viraj.builder.service;
 
-import com.viraj.singleton.model.User;
+import com.viraj.builder.model.User;
 import org.springframework.stereotype.Service;
 
 @Service

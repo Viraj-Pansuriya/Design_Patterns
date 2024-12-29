@@ -1,4 +1,4 @@
-package com.viraj.singleton.model;
+package com.viraj.builder.model;
 
 public class User {
 
