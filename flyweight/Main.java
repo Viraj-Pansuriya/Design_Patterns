@@ -37,9 +37,12 @@ public class Main {
 //                robots.add(robot);
                 IRobot robot = RobotCache.getRobot("HUMAN"); // Reuse object from cache (Flyweight)
                 iRobots.add(robot);
+                System.out.println("Hashcode of robot: " + robot.hashCode());
+                // (for Robot -> it will be different hashcode ,
+                //  for IRobot -> it will be same hashcode)
+
             }
         }
-
 
 
         long end = System.currentTimeMillis();

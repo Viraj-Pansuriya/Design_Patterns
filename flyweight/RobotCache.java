@@ -14,9 +14,11 @@ public class RobotCache {
         }
         if(type.equals("HUMAN")) {
             robotCache.put(type , new HumanRobot());
+            System.out.println("Human robot  is created");
         }
         else{
             robotCache.put(type , new DogRobot());
+            System.out.println("Dog robot  is created");
         }
         return robotCache.get(type);
     }
